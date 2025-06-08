@@ -10,6 +10,7 @@ __pycache__/
 # Distribution / packaging
 .Python
 build/
+
 dist/
 eggs/
 .eggs/
@@ -63,3 +64,8 @@ ehthumbs.db      # Windows
 # Compiled Javascript (if applicable to your project)
 *.js.map
 node_modules/
+
+
+Lib/
+Scripts/
+pyvenv.cfg
