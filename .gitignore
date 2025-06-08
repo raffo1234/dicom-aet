@@ -1,0 +1,65 @@
+# venv / Virtual Environment
+venv/
+.venv
+
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Distribution / packaging
+.Python
+build/
+dist/
+eggs/
+.eggs/
+lib64/
+sdist/
+wheel/
+pip-wheel-metadata/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.whl
+MANIFEST.in
+*.pyd
+
+# PyInstaller related
+*.spec
+_MEI*
+
+# Unit test / coverage reports
+.tox/
+nosetests.xml
+coverage*
+*.cover
+.hypothesis/
+.pytest_cache/
+pytest_debug.log
+
+# MyPy cache
+.mypy_cache/
+
+# IPython and Jupyter Notebook related
+.ipynb_checkpoints/
+ipython_config.py
+jupyter_runtime/
+nbconvert_config.py
+tmp_nbconvert_config.py
+
+# Environment variable files
+.env
+
+# OS or Editor Specific Files (Optional but Recommended)
+.DS_Store         # macOS
+Thumbs.db        # Windows
+ehthumbs.db      # Windows
+*.orig           # Generic backup files
+*.bak            # Generic backup files
+*.swp            # Vim swap files
+*.swo            # Vim swap files
+~* # Emacs and other editor backup files
+
+# Compiled Javascript (if applicable to your project)
+*.js.map
+node_modules/
